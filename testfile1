@@ -1,0 +1,33 @@
+op =input("enter operator")
+match op:
+    case "s":
+        a=int(input("Enter num1"))
+        b=int(input("Enter num2"))
+        print("Sunday")
+    case "m":
+        a=int(input("Enter num1"))
+        b=int(input("Enter num2"))
+        print("Monday")
+    case "t":
+        a=int(input("Enter num1"))
+        b=int(input("Enter num2"))
+        print("Tuesday")
+    case "w":
+        a=int(input("Enter num1"))
+        b=int(input("Enter num2"))
+        print("Wednesday")
+    case "th":
+        a=int(input("Enter num1"))
+        b=int(input("Enter num2"))
+        print("Thursday")
+    case "f":
+        a=int(input("Enter num1"))
+        b=int(input("Enter num2"))
+        print("Friday")
+    case "sa":
+        a=int(input("Enter num1"))
+        b=int(input("Enter num2"))
+        print("saturday")
+    case _:
+        print("invalid weekday")
+        
