@@ -1,3 +1,4 @@
+this is an update about git pull
 op =input("enter operator")
 match op:
     case "s":
